@@ -4,6 +4,8 @@ function setup() {
   createCanvas(480,600);
   background(255);
   textSize(15);
+  
+  saveFrames("Goodnight_iPad", "png", 97000, 2);
 }
 
 function draw() {
@@ -83,5 +85,5 @@ function draw() {
 
   setTimeout(function(){text("Goodnight gadgets everywhere",250,520)},96500);
  
- saveFrames();
+ 
 }
